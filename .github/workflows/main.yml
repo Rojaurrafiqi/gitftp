@@ -14,4 +14,4 @@ jobs:
         server: ns1.niagahoster.com
         username: rojaurrafiqi@api.rojaur
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/api.rojaur/rojaurrafiqi
+        server-dir: home/roja5563/public_html/api.rojaur/rojaurrafiqi
