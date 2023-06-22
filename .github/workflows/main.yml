@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ns1.niagahoster.com
+        server: ns2.niagahoster.com
         username: rojaurrafiqi@api.rojaur
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/api.rojaur/
